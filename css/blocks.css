@@ -3325,9 +3325,88 @@ Version: 1.0
 
 .pricing-table-1 .price-figure {
 	font-size: 24px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	padding-top: 14px;
 }
+
+/* inicio edición a la Á la carte precios */
+.ancho {
+    max-width:300px;
+}
+.h4 {
+    padding: 0px 10px;
+}
+/* fin edición a la Á la carte precios */
+
+/* inicio edición fila invoicing only, core, website*/
+  li.invoicing, li.core, li.website {
+    height: 104px;
+    padding-top: 40px !important;
+}
+/* fin edición fila invoicing only*/
+
+/* inicio edición fila website*/
+ li.website {
+    padding-top: 30px !important;
+}
+/* fin edición fila website*/
+
+/* inicio edición fila Self-support y Email */
+  li.self,li.email {
+    height: 57px;
+    padding-top: 8px !important;
+}
+/* fin edición fila Self-support y Email */
+
+/* inicio edición fila 1 location included */
+  li.location, li.all, li.can {
+    height: 83px;
+    padding-top: 30px !important;
+}
+/* fin edición fila 1 location included */
+
+/* inicio edición fila 1 user included y user you need*/
+  li.user, li.need {
+    height: 63px;
+    padding-top: 20px !important;
+}
+/* fin edición fila 1 user included */
+
+/* inicio edición fila  No extras */
+  li.extras, li.extras2 {
+    height: 103px;
+    padding-top: 40px !important;
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila  All extras */
+ li.extras2 {
+    padding-top: 20px !important;
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila  Need more? */
+  li.more {
+    height: 99px;
+    padding-top: 25px !important;
+}
+/* fin edición fila  Need more? */
+
+/* inicio edición fila Can collect*/
+  li.collect {
+    height: 170px;
+    padding-top: 40px !important;
+}
+/* fin edición fila 1 user included */
+
+/* inicio edición parrafos de .features*/
+.features p {
+    padding: 10px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    font-size: 13px;
+}
+/* fin edición parrafos de .features*/
 
 .pricing-table-1 .price-number {
 	font-weight: 600;
@@ -3353,6 +3432,7 @@ Version: 1.0
 	list-style-type: none;
 }
 
+
 .pricing-table-1 .price-footer {
 	display: block;
 	background: #2c3e50;
@@ -3375,6 +3455,9 @@ Version: 1.0
 .pricing-table-1 .price-block:hover .price.pastel-red { background: #FF5E65; }
 .pricing-table-1 .price-block:hover .price.pastel-orange { background: #FFB068; }
 
+.free {
+     height:125px;
+}
 
 .pricing-table-1 .price-block:hover h3 {
 	background: #233447;
