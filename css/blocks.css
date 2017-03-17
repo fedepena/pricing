@@ -433,8 +433,96 @@ Version: 1.0
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (min-width : 1200px){
-	
+@media only screen and (max-width : 1200px){
+
+.pastel-red {
+        height: 125px;
+    }
+    
+.pastel-red p {
+        margin-top: 18px;
+    }
+
+/* inicio edición a la Á la carte precios */
+.h4 {
+    padding: 0px 0px !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+}
+/* fin edición a la Á la carte precios */
+
+/* inicio edición fila Unlimited invoices*/
+  li.unlimited {
+    height: 56px;
+    padding-top: 20px !important;
+}
+/* fin edición fila Unlimited invoices*/
+ 
+/* inicio edición fila  No extras */
+  li.extras {
+    height: 104px !important;
+    padding-top: 40px !important;
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila pay */
+  li.pay, li.pay p {
+    height: 65px !important;
+    padding-top: 0px !important;
+}
+/* fin edición fila pay */
+    
+/* inicio edición fila dedicated */
+  li.dedicated {
+    height: 56px !important;
+    padding: 0px 10px 0px 10px !important;
+    font-size: 13px;
+}
+/* fin edición fila dedicated */
+
+/* inicio edición fila  All extras */
+ li.need {
+    height:65px !important;
+    padding-top: 20px !important;
+}
+/* fin edición fila  No extras */
+    
+/* inicio edición fila  All extras */
+ li.extras2 {
+    height:103px !important;
+    
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila  Need more? */
+  li.more {
+    height: 117px !important;
+    padding: 0px 9px 10px 9px !important;
+}
+/* fin edición fila  Need more? */
+    
+/* inicio edición fila  Need more? parrafo */
+  li.more p {
+    padding: 10px 7px 10px 7px !important;
+}
+/* fin edición fila  Need more? parrafo */
+
+/* inicio edición fila Can collect*/
+  li.collect {
+    height: 173px !important;
+    padding-top: 40px !important;
+}
+/* fin edición fila 1 user included */
+
+/* inicio edición parrafos de .features*/
+.features p {
+    padding: 10px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    font-size: 13px;
+}
+/* fin edición parrafos de .features*/
+
 	
 	
 }
@@ -3381,7 +3469,8 @@ Version: 1.0
 
 /* inicio edición fila  All extras */
  li.extras2 {
-    padding-top: 20px !important;
+     height: 102px;
+     padding-top: 20px !important;
 }
 /* fin edición fila  No extras */
 
