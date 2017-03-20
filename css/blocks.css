@@ -499,8 +499,47 @@ Version: 1.0
 }
 /* fin edición parrafos de .features*/
 
+/*inicio Sección en español*/
+/* inicio gratis fila 3 */
+.facturas2 {
+    height: 38px;
+}
+/* inicio edición fila 3 Sólo Facturación*/
+  li.invoicing2, li.core2 {
+    height: 123px;
+    padding-top: 40px !important;
+}
+/* fin edición fila 3 Sólo Facturación*/
 
+.extras3 {
+    height: 103px;
+    padding-top: 10px !important;
+}
+.extras3 p {
+    padding-top: 28px !important;
+}
 
+/* inicio asesor fila 4 */
+.website2 {
+    height: 123px;
+    padding-top: 40px !important;
+}
+/* Fin asesor fila 4 */
+
+/* inicio gratis. premium fila 7 */
+.user1, .todos {
+    height: 83px;
+    padding-top: 30px !important;
+}
+/* fin gratis. premium fila 7 */
+
+/* inicio asesor fila 6 */
+.collect2 {
+    height: 191px;
+    padding-top: 55px !important;
+}
+
+/*fin Sección en español*/
 
 
 /* Large Devices, Wide Screens */
