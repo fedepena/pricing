@@ -506,7 +506,7 @@ Version: 1.0
 /*inicio Sección en español*/
 /* inicio gratis fila 3 */
 .facturas2 {
-    height: 38px;
+    height: 37px;
 }
 /* inicio edición fila 3 Sólo Facturación*/
   li.invoicing2, li.core2 {
@@ -514,7 +514,10 @@ Version: 1.0
     padding-top: 40px !important;
 }
 /* fin edición fila 3 Sólo Facturación*/
-
+.sin {
+    height: 103px;
+    padding-top: 40px !important;
+}
 .extras3 {
     height: 103px;
     padding-top: 10px !important;
@@ -551,7 +554,7 @@ Version: 1.0
 @media  (min-width : 992px) and (max-width : 1200px) {
 /*inicio sección en */
 .pastel-red {
-        height: 125px;
+        height: 126px;
     }
     
 .pastel-red p {
@@ -568,7 +571,7 @@ Version: 1.0
 
 /* inicio edición fila Unlimited invoices*/
   li.unlimited {
-    height: 56px;
+    height: 57px;
     padding-top: 7px !important;
 }
 /* fin edición fila Unlimited invoices*/
@@ -588,7 +591,7 @@ Version: 1.0
     
 /* inicio edición fila dedicated */
   li.dedicated {
-    height: 56px !important;
+    height: 57px !important;
     padding: 0px 10px 0px 10px !important;
     font-size: 13px;
 }
@@ -610,7 +613,7 @@ Version: 1.0
 
 /* inicio edición fila  Need more? */
   li.more {
-    height: 117px !important;
+    height: 119px !important;
     padding: 8px 9px 10px 9px !important;
 }
 /* fin edición fila  Need more? */
@@ -654,6 +657,18 @@ li.user {
     .facturas2 {
     height: 57px;
 }
+    .sin {
+        height: 124px;
+    }
+    .agregue {
+        height: 124px;
+    }
+    .extras3 {
+        height: 124px;
+    }
+    .collect2 {
+        height: 212px;
+    }
     
 /******** Fin sección es ***********/
 }
@@ -678,6 +693,15 @@ li.user {
     li.addand {
         height: 64px;
     }  
+    .invoicing2 {
+        height: 83px !important;
+    }
+    .user1 {
+        height: 63px;
+    }
+    .sin {
+        height: 83px;
+    }
 }
 
 /*
