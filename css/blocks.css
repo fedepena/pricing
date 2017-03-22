@@ -230,14 +230,7 @@ Version: 1.0
   
 }
 
-/* Medium devices (desktops, 992px and up) */
 
-@media (min-width: 992px){
-  
-	
-  
-  
-}
 
 
 
@@ -425,19 +418,8 @@ Version: 1.0
 
 /* Medium Devices, Desktops */
 
-@media only screen and (min-width : 992px){
-	
 
-	
-}
 
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width : 1200px){
-	
-	
-	
-}
 
 /*
 Template Name: Bootstrap Starter Kit - Header 3
@@ -3325,7 +3307,7 @@ Version: 1.0
 
 .pricing-table-1 .price-figure {
 	font-size: 24px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	padding-top: 14px;
 }
 
@@ -3353,6 +3335,7 @@ Version: 1.0
 	list-style-type: none;
 }
 
+
 .pricing-table-1 .price-footer {
 	display: block;
 	background: #2c3e50;
@@ -3374,6 +3357,7 @@ Version: 1.0
 .pricing-table-1 .price-block:hover .price.pastel-green { background: #18B29D; }
 .pricing-table-1 .price-block:hover .price.pastel-red { background: #FF5E65; }
 .pricing-table-1 .price-block:hover .price.pastel-orange { background: #FFB068; }
+
 
 
 .pricing-table-1 .price-block:hover h3 {
