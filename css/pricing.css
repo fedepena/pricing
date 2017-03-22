@@ -1,0 +1,383 @@
+	
+/* inicio edición a la Á la carte precios */
+.free {
+     height:126px;
+    padding-top: 25px;
+}
+.ancho {
+    max-width:300px;
+}
+.h4 {
+    padding: 0px 10px;
+}
+/* fin edición a la Á la carte precios */
+
+.invoicing {
+    height: 104px;
+    padding-top: 38px !important;
+}
+
+/* inicio edición fila invoicing only, core, website*/
+  .core, .website {
+    height: 104px;
+    padding-top: 38px !important;
+}
+/* fin edición fila invoicing only*/
+
+.select {
+        height: 104px;
+    }
+
+
+
+/* inicio edición fil-support y Email */
+  .self, .email {
+    height: 57px;
+    padding-top: 18px !important;
+}
+/* fin edición fila Self-support y Email */
+
+/* inicio edición fila  included */
+  .location, .all, .can {
+    height: 83px;
+    padding-top: 28px !important;
+}
+/* fin edición fila 1 location included */
+
+/* inicio edición fila  included y user you need*/
+  .user, .need {
+    height: 63px;
+    padding-top: 23px !important;
+}
+/* fin edición fila 1 user included */
+   .extras {
+    height: 103px;
+    padding-top: 38px !important;
+}
+
+/* inicio edición fila  No extras */
+    .extras2 {
+    height: 103px;
+    padding-top: 8px !important;
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila  All extras en su p */
+  .extras2 p {
+     padding-top: 30px !important;
+}
+/* fin edición fila  No extras en su p */
+
+/* inicio edición fila  Need more? */
+   .more {
+    height: 99px;
+    padding-top: 8px;
+}
+/* fin edición fila  Need more? */
+
+/* inicio edición fila Can collect*/
+   .collect {
+    height: 171px;
+    padding-top: 48px !important;
+}
+/* fin edición fila 1 user included */
+
+/* inicio edición parrafos de .features*/
+.features p {
+    padding: 10px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    font-size: 13px;
+}
+/* fin edición parrafos de .features*/
+
+/*inicio Sección en español*/
+/* inicio gratis fila 3 */
+.facturas2 {
+    height: 37px;
+}
+/* inicio edición fila 3 Sólo Facturación*/
+  .invoicing2, .core2 {
+    height: 123px;
+    padding-top: 40px !important;
+}
+/* fin edición fila 3 Sólo Facturación*/
+.sin {
+    height: 103px;
+    padding-top: 40px !important;
+}
+.extras3 {
+    height: 103px;
+    padding-top: 10px !important;
+}
+.extras3 p {
+    padding-top: 28px !important;
+}
+
+/* inicio asesor fila 4 */
+.website2 {
+    height: 123px;
+    padding-top: 40px !important;
+}
+/* Fin asesor fila 4 */
+
+/* inicio gratis. premium fila 7 */
+.user1, .todos {
+    height: 83px;
+    padding-top: 30px !important;
+}
+/* fin gratis. premium fila 7 */
+
+/* inicio asesor fila 6 */
+.collect2 {
+    height: 191px;
+    padding-top: 55px !important;
+}
+
+/*fin Sección en español*/
+
+
+/* Medium Devices, Wide Screens */
+/*por encima de 992px y por debajo de 1200px */
+@media  (min-width : 992px) and (max-width : 1200px) {
+/*inicio sección en */
+.pastel-red {
+        height: 126px;
+    }
+    
+.pastel-red p {
+        margin-top: 18px;
+    }
+
+/* inicio edición a la Á la carte precios */
+.h4 {
+    padding: 0px 0px !important;
+    margin-top: 10px !important;
+    font-size: 20px;
+}
+/* fin edición a la Á la carte precios */
+
+/* inicio edición fila Unlimited invoices*/
+  .unlimited {
+    height: 57px;
+    padding-top: 7px !important;
+}
+/* fin edición fila Unlimited invoices*/
+ 
+/* inicio edición fila  No extras */
+   .extras {
+    height: 103px;
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila pay */
+  .pay, .pay p {
+    height: 65px !important;
+    padding-top: 0px !important;
+}
+/* fin edición fila pay */
+    
+/* inicio edición fila dedicated */
+  .dedicated {
+    height: 57px !important;
+    padding: 0px 10px 0px 10px !important;
+    font-size: 13px;
+}
+/* fin edición fila dedicated */
+
+/* inicio edición fila  All extras */
+ .need {
+    height:65px !important;
+    padding-top: 20px !important;
+}
+/* fin edición fila  No extras */
+    
+/* inicio edición fila  All extras */
+ .extras2 {
+    height:103px !important;
+    
+}
+/* fin edición fila  No extras */
+
+/* inicio edición fila  Need more? */
+  .more {
+    height: 119px !important;
+    padding: 8px 9px 10px 9px;
+}
+/* fin edición fila  Need more? */
+    
+/* inicio edición fila  Need more? parrafo */
+  .more p {
+    padding: 10px 7px 10px 7px;
+}
+/* fin edición fila  Need more? parrafo */
+
+/* inicio edición fila Can collect*/
+  .collect {
+    height: 173px !important;
+    padding-top: 40px !important;
+}
+/* fin edición fila Can collect */
+
+
+/* inicio edición parrafos de .features*/
+.features p {
+    padding: 10px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    font-size: 13px;
+}
+/* fin edición parrafos de .features*/
+    li.user {
+        height: 65px !important;
+    }
+.user, .need {
+    padding-top: 20px !important;
+    }
+.need {
+    height: 63px;
+}
+/* inicio edición fila 1 user included y user you need*/
+ .collect {
+    height: 63px;
+    padding-top: 38px !important;
+}
+/* fin edición fila 1 user included */
+    
+/*fin sección en */
+
+/******** Inicio sección es ***********/
+    .facturas2 {
+    height: 57px;
+}
+    .invoicing2 {
+    height: 123px !important;
+    }
+    .user1 {
+        height: 83px !important;
+    }
+    .sin {
+        height: 124px !important;
+    }
+    .agregue {
+        height: 124px;
+    }
+    .extras3 {
+        height: 124px;
+    }
+    .collect2 {
+        height: 212px;
+    }
+    
+/******** Fin sección es ***********/
+}
+
+/* Medium devices (desktops, 992px and up) */
+/* por debajo de 992px y por encima de 767px */
+@media   (max-width : 992px) and (min-width: 767px){ 
+  
+    .select {
+        height: 104px !important;
+    }
+    .locations {
+        height: 83px;
+    }
+    .pay {
+        height: 63px !important;
+    }
+     .extras {
+        height: 100px !important;
+        padding-top: 38px !important;
+    }
+    li.addand {
+        height: 100px;
+    }  
+    .invoicing2 {
+        height: 83px !important;
+    }
+    .user1 {
+        height: 63px;
+    }
+    .sin {
+        height: 83px;
+        padding-top: 30px !important;
+    }
+    .more {
+        padding-top: 20px !important;
+    }
+}
+
+
+/* Por debajo de 766px movil */
+@media   (max-width : 766px) {
+   .free {
+        height: 75px;
+        padding-top: 0px;
+    }
+    .free h4, .pastel-red h4, .pastel-green h4, .pastel-blue h4 {
+        font-size: 30px;
+    }
+   .features li {
+     font-size: 20px;
+    }
+   .upto, .self, .invoicing, .location, .user, .extras {
+     height: 40px !important;
+     padding-top: 5px !important;
+    }
+    .upto2, .email {
+     height: 40px !important;
+     padding-top: 5px !important;
+    }
+    .core, .all, .need {
+        height: 60px !important;
+        padding-top: 14px !important;
+    }
+    li.website {
+     padding-top: 20px !important;    
+    }
+    .can {
+     padding-top: 10px !important;    
+    }
+    .collect {
+        padding-top: 40px !important;
+    }
+   .select {
+        height: 120px;
+    }
+   .invoicing {
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .invoicing2 {
+        height: 70px !important;
+        padding-top: 10px !important;
+    }
+    .user1 {
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .sin {
+        height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .core2, .all, .todos {
+        height: 70px !important;
+        padding-top: 10px !important;
+    }
+    .extras3 {
+        height: 100px !important;
+        padding-top: 10px !important;
+    }
+    .extras3 p {
+        padding-top: 10px !important;
+    }
+    .website2 {
+        height: 80px !important;
+        padding-top: 10px !important;
+    }
+    .collect2 {
+        height: 130px;
+        padding-top: 10px !important;
+    }
+    
+}
