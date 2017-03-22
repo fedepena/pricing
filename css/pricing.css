@@ -329,8 +329,8 @@ h6 {
 }
 
 
-/* Por debajo de 766px movil */
-@media   (max-width : 766px) {
+/* Por debajo de 766px y por encima de 360px movil */
+@media   (max-width : 766px) and (min-width: 385px) {
    .free {
         height: 75px;
         padding-top: 0px;
@@ -401,4 +401,11 @@ h6 {
         padding-top: 10px !important;
     }
     
+}
+
+@media   (max-width : 384px) {
+    .collect2 {
+        height: 130px;
+        padding-top: 10px !important;
+    }
 }
