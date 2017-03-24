@@ -457,13 +457,106 @@ h6 {
 }
 
 
-/* <= 384px */
+/* <= 384px y >= 0*/
 
-@media (max-width: 384px) {
+@media (max-width: 384px) and (min-width: 0px) {
+    /* FREE y GRATIS inicio */
+    .free {
+        min-height: 75px;
+        padding-top: 0px;
+    }
+    .invoicing {
+        min-height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .upto,
+    .self,
+    .invoicing,
+    .location,
+    .user,
+    .extras {
+        min-height: 40px !important;
+        padding-top: 5px !important;
+    }
+    /* FREE y GRATIS fin */
+    /* GRATIS inicio */
+    .invoicing2 {
+        min-height: 70px !important;
+        padding-top: 10px !important;
+    }
+    .user1 {
+        min-height: 50px !important;
+        padding-top: 10px !important;
+    }
+    .sin {
+        min-height: 50px !important;
+        padding-top: 10px !important;
+    }
+    /* GRATIS fin */
+    /* A LA CARTE inicio */
+    .select {
+        min-height: 120px;
+    }
+    /* A LA CARTE fin */
+    /* TODAS inicio */
+    .free h4,
+    .pastel-red h4,
+    .pastel-green h4,
+    .pastel-blue h4 {
+        font-size: 30px;
+    }
+    .features li {
+        font-size: 20px;
+    }
+    /* TODAS fin */
+    /* A LA CARTE y A LA CARTA inicio */
+    .upto2,
+    .email {
+        min-height: 40px !important;
+        padding-top: 5px !important;
+    }
+    /* A LA CARTE y A LA CARTA fin */
+    /* PREMIUN inicio */
+    .core,
+    .all,
+    .need {
+        min-height: 60px !important;
+        padding-top: 14px !important;
+    }
+    .core2,
+    .todos {
+        min-height: 70px !important;
+        padding-top: 10px !important;
+    }
+    .extras3 {
+        min-height: 100px !important;
+        padding-top: 10px !important;
+    }
+    .extras3 p {
+        padding-top: 10px !important;
+    }
+    /* PREMIUN fin */
+    /* ADVISOR inicio */
+    li.website {
+        padding-top: 20px !important;
+    }
+    .collect {
+        padding-top: 40px !important;
+    }
+    /* ADVISOR fin */
     /* ASESOR inicio */
+    .website2 {
+        min-height: 80px !important;
+        padding-top: 10px !important;
+    }
     .collect2 {
         min-height: 130px;
         padding-top: 10px !important;
     }
     /* ASESOR fin */
+    /* ADVISOR y ASESOR inicio */
+    .can {
+        padding-top: 10px !important;
+    }
+    /* ADVISOR y ASESOR fin */
 }
