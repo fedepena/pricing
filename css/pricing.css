@@ -199,9 +199,6 @@ h6 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     /* FREE inicio */
-    li.user {
-        min-height: 65px !important;
-    }
     .extras {
         min-height: 103px;
     }
@@ -217,27 +214,34 @@ h6 {
         min-height: 83px !important;
     }
     .sin {
-        min-height: 124px !important;
+        min-height: 132px ;
+        padding-top: 30px !important;
     }
     /* GRATIS fin */
     /*A LA CARTE inicio */
     .h6 {
-        padding-top: 0px;
+        padding-top: 10px;
         margin-bottom: -10px;
     }
     .pay,
     .pay p {
         min-height: 65px !important;
-        padding-top: 0px !important;
+        padding-top: 10px !important;
     }
     /*A LA CARTE fin */
     /* A LA CARTA inicio */
     .h62 {
-        padding-top: 12px;
+        padding-top: 10px;
         margin-bottom: -10px;
     }
+    .porcobrar   {
+        min-height: 127px;
+    }
+    .porcobrar p {
+        padding-top: 10px !important;
+    }
     .agregue {
-        min-height: 124px;
+        min-height: 126px;
     }
     /* A LA CARTA inicio */
     /*FEE y GRATIS inicio */
@@ -250,22 +254,15 @@ h6 {
         min-height: 123px;
     }
     .h4 {
-        padding: 10px 0px 0px 0px!important;
+        padding: 12px 0px 0px 0px!important;
         margin-top: 0px !important;
         margin-bottom: -4px;
         font-size: 20px;
     }
     /* A LA CARTE Y A LA CARTA fin */
     /* PREMIUM inicio */
-    .need {
-        min-height: 65px !important;
-        padding-top: 20px !important;
-    }
-    .extras2 {
-        min-height: 103px !important;
-    }
     .unlimited {
-        min-height: 57px;
+        min-height: 59px;
         padding-top: 7px !important;
     }
     .dedicated {
@@ -277,17 +274,30 @@ h6 {
         min-height: 124px;
     }
     /* PREMIUM fin */
-    /* ASESOR fin */
+    /* ASESOR inicio */
     .collect2 {
-        min-height: 212px;
+        min-height: 220px;
     }
     /* ASESOR fin */
+    /* FREE, A LA CARTE y PREMIUM inicio */
+    .extras, .addand, .extras2 {
+        min-height: 110px;
+    }
+    /* FREE, A LA CARTE y PREMIUM fin */
     /* FREE y PREMIUM inicio */
+    .user, .need {
+        min-height: 101px;
+    }
     .user,
     .need {
-        padding-top: 20px !important;
+        padding-top: 40px !important;
     }
     /* FREE y PREMIUM fin */
+    /* GRATIS, PREMIUM y ASESOR inicio */
+    .extras3 {
+        min-height: 130px;
+    }
+    /* GRATIS, PREMIUM y ASESOR fin */
     /* A LA CARTE, PREMIUM y ADVISOR inicio */
     h6 {
         margin-bottom: -10px;
@@ -301,17 +311,21 @@ h6 {
     /* A LA CARTE, PREMIUM y ADVISOR fin */
     /* ADVISOR inicio */
     .collect {
-        min-height: 173px !important;
+        min-height: 216px;
         padding-top: 40px !important;
     }
     /* ADVISOR fin */
     /* ADVISOR y ASESOR inicio */
     .more {
-        min-height: 119px !important;
+        min-height: 121px !important;
         padding: 8px 9px 10px 9px;
     }
     .more p {
         padding: 10px 7px 10px 7px;
+    }
+    .website {
+        min-height: 105px;
+        padding-top: 25px !important;
     }
     /* ADVISOR y ASESOR fin */
 }
@@ -325,20 +339,16 @@ h6 {
 @media (max-width: 992px) and (min-width: 767px) {
     /* FREE inicio */
     .extras {
-        min-height: 100px !important;
+        min-height: 105px !important;
         padding-top: 38px !important;
     }
     /* FREE fin */
     /* GRATIS inicio */
     .invoicing2 {
-        min-height: 83px !important;
+        min-height: 123px !important;
     }
     .user1 {
-        min-height: 63px;
-    }
-    .sin {
-        min-height: 83px;
-        padding-top: 30px !important;
+        min-height: 85px;
     }
     /* GRATIS fin */
     /* A LA CARTE inicio */
@@ -354,7 +364,7 @@ h6 {
     /* A LA CARTE fin */
     /* A LA CARTE y A LA CARTA inicio */
     .locations {
-        min-height: 83px;
+        min-height: 84px;
     }
     /* A LA CARTE y A LA CARTA fin */
     /* ADVISOR y ASESOR inicio */
