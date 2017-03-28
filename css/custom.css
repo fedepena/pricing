@@ -1,5 +1,10 @@
 /* Put your custom styles here */
 
+.pricing-table-1 .price-figure
+{
+    text-transform: none;
+}
+
 /* FREE y GRATIS inicio */
 
 .free {
