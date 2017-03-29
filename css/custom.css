@@ -18,12 +18,15 @@
 
 .self {
     min-height: 57px;
-    padding-top: 18px !important;
+    padding-top: 0px !important;
+    line-height: 48px;
 }
+
 
 .invoicing {
     min-height: 105px;
-    padding-top: 38px !important;
+    padding-top: 0px !important;
+    line-height: 96px;
 }
 
 .extras {
@@ -41,7 +44,10 @@
 
 
 /* A LA CARTA inicio*/
-
+.pay{
+        min-height: 65px !important;
+        padding-top: 4px !important;
+    }
 .ancho {
     max-width: 300px;
 }
@@ -57,7 +63,8 @@ h6 {
 
 .email {
     min-height: 57px;
-    padding-top: 18px !important;
+    padding-top: 15px !important;
+   
 }
 .select {
     min-height: 105px;
@@ -78,10 +85,11 @@ h6 {
 
 
 /* PREMIUM inicio */
+
 .dedicated {
         min-height: 57px !important;
-        padding: 0px 10px 0px 10px !important;
-        font-size: 13px;
+        padding: 5px 10px 0px 10px !important;
+        font-size: 15px;
     }
 .extras2 {
     min-height: 105px;
@@ -104,17 +112,24 @@ h6 {
 
 /* PREMIUM fin */
 
+/* ADVISOR inicio */
+
+/* ADVISOR fin */
 
 /* ASESOR inicio */
 
 .collect {
-    min-height: 174px;
+    min-height: 175px;
     padding-top: 48px !important;
+    
 }
 
 .more {
     min-height: 100px;
-    padding-top: 8px;
+    padding-top: 20px !important ;
+    text-align: center;
+    line-height: normal;
+    
 }
 
 .website2 {
@@ -132,9 +147,11 @@ h6 {
 
 
 /* PRIMIUM y ADVISOR inicio*/
-
-.core,
 .website {
+    min-height: 105px;
+    padding-top: 30px !important;
+}
+.core {
     min-height: 105px;
     padding-top: 38px !important;
 }
@@ -151,21 +168,29 @@ h6 {
     padding-top: 40px !important;
 }
 
-.user1,
-.todos {
+.user1 {
     min-height: 85px;
     padding-top: 30px !important;
 }
 
+.todos {
+    min-height: 85px;
+    padding-top: 20px !important;
+}
 
 /* GRATIS y PREMIUM fin */
 
 
 /* GRATIS, PREMIUM Y ASESOR inicio */
-
-.location,
-.all,
+.all {
+    min-height: 84px;
+    padding-top: 23px !important;
+}
 .can {
+    min-height: 84px;
+    padding-top: 20px !important;
+}
+.location {
     min-height: 84px;
     padding-top: 28px !important;
 }
@@ -178,10 +203,12 @@ h6 {
 
 .user,
 .need {
-    min-height: 64px;
+    min-height: 65px;
     padding-top: 23px !important;
-}
+    line-height: 10px;
+    
 
+}
 
 /* FREE y PREMIUM fin */
 
@@ -215,20 +242,23 @@ h6 {
         min-height: 57px;
     }
     .invoicing2 {
-        min-height: 123px !important;
+        min-height: 127px !important;
     }
     .user1 {
-        min-height: 83px !important;
+        min-height: 85px !important;
     }
     .sin {
-        min-height: 132px ;
-        padding-top: 30px !important;
+        min-height: 126px ;
+        padding-top: 50px !important;
     }
     /* GRATIS fin */
     /*A LA CARTE inicio */
     .h6 {
         padding-top: 10px;
         margin-bottom: -10px;
+    }
+    .email, .self {
+        min-height: 64px !important;
     }
     .pay,
     .pay p {
@@ -270,20 +300,39 @@ h6 {
     /* PREMIUM inicio */
     .unlimited {
         min-height: 59px;
-        padding-top: 7px !important;
+        padding-top: 18px !important;
     }
     .dedicated {
         min-height: 57px !important;
         padding: 0px 10px 0px 10px !important;
-        font-size: 13px;
+        font-size: 15px;
+    }
+    .core2 {
+        padding-top: 35px !important;
+        min-height: 127px;
+    }
+    .all {
+        
     }
     .extras3 {
         min-height: 124px;
     }
     /* PREMIUM fin */
+    
+    /* ADVISOR inicio */
+    .website2 {
+        padding-top: 30px !important;
+        min-height: 127px;
+    }
+    .collect {
+        min-height: 216px;
+        padding-top: 50px !important;
+    }
+    /* ADVISOR fin */
+    
     /* ASESOR inicio */
     .collect2 {
-        min-height: 220px;
+        min-height: 216px;
     }
     /* ASESOR fin */
     /* FREE, A LA CARTE y PREMIUM inicio */
@@ -302,7 +351,7 @@ h6 {
     /* FREE y PREMIUM fin */
     /* GRATIS, PREMIUM y ASESOR inicio */
     .extras3 {
-        min-height: 130px;
+        min-height: 126px;
     }
     /* GRATIS, PREMIUM y ASESOR fin */
     /* A LA CARTE, PREMIUM y ADVISOR inicio */
@@ -316,15 +365,10 @@ h6 {
         font-size: 13px;
     }
     /* A LA CARTE, PREMIUM y ADVISOR fin */
-    /* ADVISOR inicio */
-    .collect {
-        min-height: 216px;
-        padding-top: 40px !important;
-    }
-    /* ADVISOR fin */
+    
     /* ADVISOR y ASESOR inicio */
     .more {
-        min-height: 121px !important;
+        min-height: 128px !important;
         padding: 8px 9px 10px 9px;
     }
     .more p {
@@ -346,7 +390,7 @@ h6 {
 @media (max-width: 992px) and (min-width: 767px) {
     /* FREE inicio */
     .extras {
-        min-height: 105px !important;
+        min-height: 103px !important;
         padding-top: 38px !important;
     }
     /* FREE fin */
@@ -447,6 +491,11 @@ h6 {
     .need {
         min-height: 60px !important;
         padding-top: 14px !important;
+    }
+    .core2,
+    .todos {
+        min-height: 70px !important;
+        padding-top: 10px !important;
     }
     .core2,
     .todos {
