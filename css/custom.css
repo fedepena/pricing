@@ -44,6 +44,20 @@
 
 /* A LA CARTA inicio*/
 
+.facturas {
+    min-height: 59px;
+    padding-top: 18px !important;
+}
+
+.upto2 {
+    min-height: 59px;
+    padding-top: 18px !important;
+}
+
+.locations {
+    min-height: 84px;
+}
+
 .pay {
     min-height: 65px !important;
     padding-top: 4px !important;
@@ -63,7 +77,7 @@ h6 {
 }
 
 .email {
-    min-height: 57px;
+    min-height: 57px !important;
     padding-top: 15px !important;
 }
 
@@ -93,6 +107,11 @@ h6 {
 
 /* PREMIUM inicio */
 
+.unlimited {
+    min-height: 59px;
+    padding-top: 18px !important;
+}
+
 .dedicated {
     min-height: 57px !important;
     padding: 5px 10px 0px 10px !important;
@@ -121,22 +140,16 @@ h6 {
 /* PREMIUM fin */
 
 
-/* ADVISOR inicio */
-
-
-/* ADVISOR fin */
-
-
 /* ASESOR inicio */
 
 .collect {
     min-height: 175px;
-    padding-top: 48px !important;
+    padding-top: 70px !important;
 }
 
 .more {
-    min-height: 100px;
-    padding-top: 20px !important;
+    min-height: 121px !important;
+    padding-top: 30px !important;
     text-align: center;
     line-height: normal;
 }
@@ -273,7 +286,7 @@ h6 {
     }
     .email,
     .self {
-        min-height: 64px !important;
+        min-height: 64px;
     }
     .pay,
     .pay p {
@@ -338,7 +351,7 @@ h6 {
     }
     .collect {
         min-height: 216px;
-        padding-top: 50px !important;
+        padding-top: 50px;
     }
     /* ADVISOR fin */
     /* ASESOR inicio */
@@ -381,7 +394,7 @@ h6 {
     /* A LA CARTE, PREMIUM y ADVISOR fin */
     /* ADVISOR y ASESOR inicio */
     .more {
-        min-height: 128px !important;
+        min-height: 128px;
         padding: 8px 9px 10px 9px;
     }
     .more p {
@@ -420,7 +433,7 @@ h6 {
         min-height: 104px !important;
     }
     .pay {
-        min-height: 63px !important;
+        min-height: 65px !important;
     }
     li.addand {
         min-height: 100px;
@@ -528,7 +541,7 @@ h6 {
         padding-top: 20px !important;
     }
     .collect {
-        padding-top: 40px !important;
+        padding-top: 40px;
     }
     /* ADVISOR fin */
     /* ASESOR inicio */
@@ -633,7 +646,7 @@ h6 {
         padding-top: 20px !important;
     }
     .collect {
-        padding-top: 40px !important;
+        padding-top: 40px;
     }
     /* ADVISOR fin */
     /* ASESOR inicio */
