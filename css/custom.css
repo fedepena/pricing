@@ -12,8 +12,10 @@
     padding-top: 25px;
 }
 
+.upto,
 .facturas2 {
-    min-height: 37px;
+    min-height: 59px;
+    padding-top: 18px !important;
 }
 
 .self {
@@ -31,6 +33,9 @@
 .extras {
     min-height: 105px;
     padding-top: 38px !important;
+}
+.addand {
+    min-height: 105px;
 }
 
 .sin {
@@ -60,7 +65,8 @@
 
 .pay {
     min-height: 65px !important;
-    padding-top: 4px !important;
+    padding-top: 5px !important;
+    padding-left: 0px !important;
 }
 
 .ancho {
@@ -144,7 +150,7 @@ h6 {
 
 .collect {
     min-height: 175px;
-    padding-top: 70px !important;
+    padding-top: 45px !important;
 }
 
 .more {
@@ -260,6 +266,14 @@ h6 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     /* FREE inicio */
+    .upto {
+        min-height: 69px !important;
+    }
+    .self {
+        min-height: 65px;
+        padding-top: 0px !important;
+        line-height: 48px;
+    }
     .extras {
         min-height: 103px;
     }
@@ -284,15 +298,19 @@ h6 {
         padding-top: 10px;
         margin-bottom: -10px;
     }
-    .email,
-    .self {
-        min-height: 64px;
+    .upto2 {
+        min-height: 69px;
     }
-    .pay,
-    .pay p {
+    .email {
         min-height: 65px !important;
-        padding-top: 10px !important;
     }
+    .pay {
+        min-height: 101px !important;
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
     /*A LA CARTE fin */
     /* A LA CARTA inicio */
     .h62 {
@@ -327,11 +345,11 @@ h6 {
     /* A LA CARTE Y A LA CARTA fin */
     /* PREMIUM inicio */
     .unlimited {
-        min-height: 59px;
+        min-height: 69px;
         padding-top: 18px !important;
     }
     .dedicated {
-        min-height: 57px !important;
+        min-height: 65px !important;
         padding: 0px 10px 0px 10px !important;
         font-size: 15px;
     }
@@ -351,12 +369,13 @@ h6 {
     }
     .collect {
         min-height: 216px;
-        padding-top: 50px;
+        padding-top: 50px !important;
     }
     /* ADVISOR fin */
     /* ASESOR inicio */
     .collect2 {
         min-height: 216px;
+        padding-top: 50px !important;
     }
     /* ASESOR fin */
     /* FREE, A LA CARTE y PREMIUM inicio */
@@ -394,7 +413,7 @@ h6 {
     /* A LA CARTE, PREMIUM y ADVISOR fin */
     /* ADVISOR y ASESOR inicio */
     .more {
-        min-height: 128px;
+        min-height: 139px !important;
         padding: 8px 9px 10px 9px;
     }
     .more p {
@@ -416,9 +435,10 @@ h6 {
 @media (max-width: 992px) and (min-width: 767px) {
     /* FREE inicio */
     .extras {
-        min-height: 103px !important;
+        min-height: 105px !important;
         padding-top: 38px !important;
     }
+    
     /* FREE fin */
     /* GRATIS inicio */
     .invoicing2 {
@@ -435,8 +455,8 @@ h6 {
     .pay {
         min-height: 65px !important;
     }
-    li.addand {
-        min-height: 100px;
+    .addand {
+        min-height: 105px;
     }
     /* A LA CARTE fin */
     /* A LA CARTE y A LA CARTA inicio */
