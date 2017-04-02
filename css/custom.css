@@ -4,6 +4,10 @@
     text-transform: none;
 }
 
+.pricing-table-1 .features li
+{
+    font-size: 15px;
+}
 
 /* FREE y GRATIS inicio */
 
@@ -310,7 +314,7 @@ h6 {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-    
+
     /*A LA CARTE fin */
     /* A LA CARTA inicio */
     .h62 {
@@ -438,7 +442,7 @@ h6 {
         min-height: 105px !important;
         padding-top: 38px !important;
     }
-    
+
     /* FREE fin */
     /* GRATIS inicio */
     .invoicing2 {
